@@ -7,10 +7,10 @@ import Navbar from './Routers/Navbar'
 const App = () => {
 
   let routers = createBrowserRouter([
-    {
-      path : "/",
-      element : <Navigate to="/register" replace = {true}/>
-    },
+    // {
+    //   path : "/",
+    //   element : <Navigate to="/register" replace = {true}/>
+    // },
     {
       path : "/",
       element : <Navbar />,
