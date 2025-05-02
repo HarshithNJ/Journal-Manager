@@ -49,6 +49,11 @@
     align-items: center;
 }
 
+#head ul a {
+    text-decoration: none;
+    list-style: none;
+}
+
 #head ul li {
     color: #ffffff;
     font-size: 20px;
@@ -57,6 +62,7 @@
     font-weight: bold;
     position: relative;
     padding: 5px 0;
+    text-decoration: none;
 }
 
 #head ul li::after {
@@ -73,6 +79,7 @@
 #head ul li:hover {
     color: #f1c40f;
     text-shadow: 0 0 10px rgba(241, 196, 15, 0.3);
+    transform: translateY(-2px);
 }
 
 #head ul li:hover::after {
