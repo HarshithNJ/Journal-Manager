@@ -1,5 +1,29 @@
 {
-    "journal" : [],
-    "registered_user" : [],
-    "users" : []
+  "journal": [],
+  "registered_user": [
+    {
+      "id": "e2d5",
+      "username": "user",
+      "email": "user@gmail.com",
+      "mobile": "5478962574",
+      "password": "user123"
+    }
+  ],
+  "users": [
+    {
+      "id": "3549",
+      "username": "user",
+      "password": "user123"
+    },
+    {
+      "id": "6335",
+      "username": "user",
+      "password": "user123"
+    },
+    {
+      "id": "f606",
+      "username": "user",
+      "password": "user123"
+    }
+  ]
 }

@@ -45,7 +45,7 @@ const Register = () => {
 
         let Registered_User = {username, email, mobile, password}
 
-        let data = await axios.post("---------------", Registered_User)
+        let data = await axios.post("http://localhost:3041/registered_user", Registered_User)
       }
 
     }

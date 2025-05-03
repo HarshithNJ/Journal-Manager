@@ -33,7 +33,7 @@ const Login = () => {
 
     try{
 
-      const user = reg.Registered_User.find(
+      const user = reg.registered_user.find(
         (user) => user.username === username
       )
   
@@ -47,10 +47,10 @@ const Login = () => {
         return
       }
 
-      navigate("/home")
+      navigate("/view")
       let Login = {username, password}
 
-      let data1 = await axios.post("-------", Login)
+      let data1 = await axios.post("http://localhost:3041/users", Login)
     }
     catch(err){
       console.log("err");
