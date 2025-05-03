@@ -1,3 +1,5 @@
 {
-    "journal" : []
+    "journal" : [],
+    "registered_user" : [],
+    "users" : []
 }

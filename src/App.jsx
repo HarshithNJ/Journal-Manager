@@ -1,5 +1,5 @@
 import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import Navbar from './Routers/Navbar'
 import Register from './Routers/Register'
 import AddJournal from './Routers/AddJournal'
@@ -9,6 +9,10 @@ import Login from './Routers/Login'
 
 
 let routers = createBrowserRouter([
+    {
+        path : "/",
+        element : <Navigate to="/login"></Navigate>
+    },
     {
         path : "/",
         element : <Navbar />,
